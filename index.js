@@ -28,4 +28,5 @@ export default function() {
         var res = init.replace(/[4|7]/g, Math.floor((replacing_zones[replacing_zones_num].start + Math.random() * replacing_zones[replacing_zones_num].possible)) + '');
         return res;
     }
+    
 }
